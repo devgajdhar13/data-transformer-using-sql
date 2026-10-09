@@ -147,7 +147,7 @@ Replace `your_username` with your local MySQL username. The sample inserts use `
 Each screenshot below shows the MySQL query and its result. Images use relative paths, so they will display on GitHub as long as the `ss` folder is uploaded beside this README.
 
 ### 1. 🔗 JOIN Operations
-```
+
 <details open>
 <summary><strong>01 — INNER JOIN: Orders with Customer Details</strong></summary>
 
@@ -316,7 +316,7 @@ DataTransformer_Project/
     ├── 15-order-ranking.png
     ├── 16-discount-and-final-amount.png
     └── 17-salary-categories.png
-```
+
 
 ## ✅ Key Learning Outcomes
 
