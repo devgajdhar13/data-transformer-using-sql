@@ -153,7 +153,7 @@ Each screenshot below shows the MySQL query and its result. Images use relative 
 
 Combines orders with the details of matching customers.
 
-![INNER JOIN result](ss/1.inner join.png)
+![INNER JOIN result](ss/1.inner%20join.png)
 </details>
 
 <details>
