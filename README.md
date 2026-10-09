@@ -147,7 +147,7 @@ Replace `your_username` with your local MySQL username. The sample inserts use `
 Each screenshot below shows the MySQL query and its result. Images use relative paths, so they will display on GitHub as long as the `ss` folder is uploaded beside this README.
 
 ### 1. 🔗 JOIN Operations
-
+```
 <details open>
 <summary><strong>01 — INNER JOIN: Orders with Customer Details</strong></summary>
 
@@ -291,7 +291,7 @@ Uses `CASE` to categorize salaries as High (at least 60,000), Medium (at least 5
 
 ![Salary categories result](ss/17.categories.png)
 </details>
-
+```
 ## 📁 Project Structure
 
 ```text
