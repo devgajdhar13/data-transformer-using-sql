@@ -153,7 +153,7 @@ Each screenshot below shows the MySQL query and its result. Images use relative 
 
 Combines orders with the details of matching customers.
 
-![INNER JOIN result](ss/01-inner-join.png)
+![INNER JOIN result](ss/1.inner join.png)
 </details>
 
 <details>
@@ -161,7 +161,7 @@ Combines orders with the details of matching customers.
 
 Shows all customers, including Olivia Thomas, who has no matching order in the sample data.
 
-![LEFT JOIN result](ss/02-left-join.png)
+![LEFT JOIN result](ss/2.left join.png)
 </details>
 
 <details>
@@ -169,7 +169,7 @@ Shows all customers, including Olivia Thomas, who has no matching order in the s
 
 Keeps all order records and returns matching customer information.
 
-![RIGHT JOIN result](ss/03-right-join.png)
+![RIGHT JOIN result](ss/3.right join.png)
 </details>
 
 <details>
@@ -177,7 +177,7 @@ Keeps all order records and returns matching customer information.
 
 Uses `LEFT JOIN` and `RIGHT JOIN` combined with `UNION` to show both sides of the relationship.
 
-![Full outer join equivalent result](ss/04-full-outer-join.png)
+![Full outer join equivalent result](ss/4.full outer join.png)
 </details>
 
 ### 2. 🧮 Subqueries & Aggregate Comparisons
@@ -187,7 +187,7 @@ Uses `LEFT JOIN` and `RIGHT JOIN` combined with `UNION` to show both sides of th
 
 Uses a subquery with `AVG()` to find customers with at least one order above the overall average order amount.
 
-![Above-average customer order result](ss/05-customers-above-average-order.png)
+![Above-average customer order result](ss/5.avg amount.png)
 </details>
 
 <details>
@@ -195,7 +195,7 @@ Uses a subquery with `AVG()` to find customers with at least one order above the
 
 Compares each employee's salary with the average salary from the `Employees` table.
 
-![Above-average salary result](ss/06-employees-above-average-salary.png)
+![Above-average salary result](ss/6.avg salary.png)
 </details>
 
 ### 3. 📅 Date Transformations
@@ -205,7 +205,7 @@ Compares each employee's salary with the average salary from the `Employees` tab
 
 Uses `YEAR()` and `MONTH()` to create separate year and month columns from `OrderDate`.
 
-![Order year and month result](ss/07-order-year-and-month.png)
+![Order year and month result](ss/7.order date.png)
 </details>
 
 <details>
@@ -213,7 +213,7 @@ Uses `YEAR()` and `MONTH()` to create separate year and month columns from `Orde
 
 Uses `DATEDIFF()` and `CURDATE()` to calculate the elapsed days for each order.
 
-![Days since order result](ss/08-days-since-order.png)
+![Days since order result](ss/8.between 2 date.png)
 </details>
 
 <details>
@@ -221,7 +221,7 @@ Uses `DATEDIFF()` and `CURDATE()` to calculate the elapsed days for each order.
 
 Uses `DATE_FORMAT()` to display dates in a `DD-Mon-YYYY` style.
 
-![Formatted order date result](ss/09-formatted-order-date.png)
+![Formatted order date result](ss/9.readable formate.png)
 </details>
 
 ### 4. 🧹 String Transformations
@@ -231,7 +231,7 @@ Uses `DATE_FORMAT()` to display dates in a `DD-Mon-YYYY` style.
 
 Uses `CONCAT()` to produce a full name.
 
-![Full customer name result](ss/10-concatenate-customer-name.png)
+![Full customer name result](ss/10.full name.png)
 </details>
 
 <details>
@@ -239,7 +239,7 @@ Uses `CONCAT()` to produce a full name.
 
 Uses `REPLACE()` to display `John` as `Jonathan`; the query does not update the stored table.
 
-![Replace first name result](ss/11-replace-first-name.png)
+![Replace first name result](ss/11.replace name.png)
 </details>
 
 <details>
@@ -247,7 +247,7 @@ Uses `REPLACE()` to display `John` as `Jonathan`; the query does not update the 
 
 Uses `UPPER()` for first names and `LOWER()` for last names.
 
-![Uppercase and lowercase result](ss/12-uppercase-and-lowercase.png)
+![Uppercase and lowercase result](ss/12.lowercase.png)
 </details>
 
 <details>
@@ -255,7 +255,7 @@ Uses `UPPER()` for first names and `LOWER()` for last names.
 
 Uses `TRIM()` to remove leading and trailing whitespace from email values.
 
-![Trim email result](ss/13-trim-email.png)
+![Trim email result](ss/13.email.png)
 </details>
 
 ### 5. 📊 Window Functions & Business Rules
@@ -265,7 +265,7 @@ Uses `TRIM()` to remove leading and trailing whitespace from email values.
 
 Uses `SUM() OVER (ORDER BY ...)` to calculate the cumulative amount by order date and ID.
 
-![Running total result](ss/14-running-total.png)
+![Running total result](ss/14.total amount .png)
 </details>
 
 <details>
@@ -273,7 +273,7 @@ Uses `SUM() OVER (ORDER BY ...)` to calculate the cumulative amount by order dat
 
 Uses `RANK() OVER (ORDER BY TotalAmount DESC)` to rank the largest order first.
 
-![Order ranking result](ss/15-order-ranking.png)
+![Order ranking result](ss/15.rank.png)
 </details>
 
 <details>
@@ -281,7 +281,7 @@ Uses `RANK() OVER (ORDER BY TotalAmount DESC)` to rank the largest order first.
 
 Uses `CASE` to apply a 10% discount to orders above 1,000, a 5% discount to orders above 500, and no discount otherwise.
 
-![Discount and final amount result](ss/16-discount-and-final-amount.png)
+![Discount and final amount result](ss/16.total amount in order .png)
 </details>
 
 <details>
@@ -289,7 +289,7 @@ Uses `CASE` to apply a 10% discount to orders above 1,000, a 5% discount to orde
 
 Uses `CASE` to categorize salaries as High (at least 60,000), Medium (at least 50,000), or Low.
 
-![Salary categories result](ss/17-salary-categories.png)
+![Salary categories result](ss/17.categories.png)
 </details>
 
 ## 📁 Project Structure
